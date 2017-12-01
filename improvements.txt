@@ -1,0 +1,10 @@
+A limitation of the system is that verbs such as "like" requires a proper name after them in order for the sentence to be parsed. It can be extended to work with also with common nouns, such sentence like:
+
+$$ Mary likes donuts.
+
+could be parsed.
+
+
+The word "NOT" can be added to the function list and grammar. We can use tokenization to implement this, and normalize "didn't" form to two seperate forms: did and n't, or not. This can be achieved with help of a lookup table. 
+
+Overall those improvements would not be diffiult to achieve and will be a big benefit to the user. For people it will be more natural to talk and feel less restricted by the grammar that needs to be used and specific words they need to type in order for the system to give answers.
